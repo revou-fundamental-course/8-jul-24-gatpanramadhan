@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.reset-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.reset-button:hover {
+  background-color: darkred;
+}
+
+.fitur,
+.deskripsi1 {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: url("check.png") no-repeat left center;
+  padding-left: 25px;
+}
+
+#result h2 {
+  margin-top: 0;
+}
+
+#bmiResult {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#result {
+  flex: 1;
+}
+
+#nutritionConsult,
+#nutritionRegister,
+#doctorConsult,
+#doctorRegister {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 5px;
+  background-color: #28a745;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#nutritionConsult:hover,
+#nutritionRegister:hover,
+#doctorConsult:hover,
+#doctorRegister:hover {
+  background-color: #9bec00;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.button-container button {
+  margin: 0 10px;
+}
+
+#bmiAdvice {
+  margin-top: 20px;
+  font-size: 16px;
+}
